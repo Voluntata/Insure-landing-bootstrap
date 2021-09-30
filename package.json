@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap5-insure",
+  "version": "1.0.0",
+  "description": "![Design preview for the Insure landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss --css css/custom.css --content index.html -o css/reducido.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Voluntata/Insure-landing-bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Voluntata/Insure-landing-bootstrap/issues"
+  },
+  "homepage": "https://github.com/Voluntata/Insure-landing-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.1"
+  },
+  "devDependencies": {}
+}
