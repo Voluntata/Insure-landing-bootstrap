@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
 @media (max-width: 541px) {
   .menu-mobile {
-    height: 450px;
+    height: 100vh;
   }
 
   .menu-mobile:after {
@@ -560,18 +560,6 @@ button:not(:disabled),
   text-decoration: none;
 }
 
-.navbar-nav {
-  display: flex;
-  flex-direction: column;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-.navbar-nav .nav-link {
-  padding-right: 0;
-  padding-left: 0;
-}
-
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
@@ -592,7 +580,18 @@ button:not(:disabled),
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem;
+  box-shadow: 0 0 0 none;
+}
+
+.navbar-light .navbar-brand {
+  color: transparent;
+}
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: transparent;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: transparent;
 }
 
 @keyframes progress-bar-stripes {
